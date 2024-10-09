@@ -21,7 +21,7 @@ func isY(_ letter: Character) -> Bool {
 ```swift
 // version 1 - Хэтэрхий удаан O(10)
 let vowels = Array("аоөүэияею")
-let ys = Array("иы")
+let ys = Array("йы")
 func isVowels(_ letter: Character) -> Bool {
   return vowels.contains(letter.lowercased())
 }
@@ -35,7 +35,7 @@ func isY(_ letter: Character) -> Bool {
 ```swift
 // version 2 - Өмнөхийг бодвол хол эгшгийг хурдан илрүүлнэ, гэхдээ үнэтэй шийдэл O(10)
 let vowels = Array("оүиюеаөэя")
-let ys = Array("иы")
+let ys = Array("йы")
 func isVowels(_ letter: Character) -> Bool {
   return vowels.contains(letter.lowercased())
 }
