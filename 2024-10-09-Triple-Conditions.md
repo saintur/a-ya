@@ -7,12 +7,12 @@ Keyboard апп хөгжүүлэх явцад гарсан код болон с�
 ```swift
 // version 0 - Хэтэрхий удаан O(20) 
 let vowels = Array("аоөүэияеюАОӨҮЭИЯЕЮ")
-let ys = Array("иы")
+let ys = Array("йыЙЫ")
 func isVowels(_ letter: Character) -> Bool {
-  return vowels.contains(letter.lowercased())
+  return vowels.contains(letter)
 }
 func isY(_ letter: Character) -> Bool {
-  return ys.contains(letter.lowercased())
+  return ys.contains(letter)
 }
 ```
 
